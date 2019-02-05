@@ -1,0 +1,31 @@
+{
+    "name": "kanti/typo3-realurl",
+    "type": "typo3-cms-extension",
+    "description": "Speaking URLs for TYPO3",
+    "homepage": "https://github.com/dmitryd/typo3-realurl",
+    "version": "1.13.99",
+    "time": "2018-07-09",
+    "license": "GPL-3.0+",
+    "replace": {
+        "realurl": "self.version",
+        "typo3-ter/realurl": "self.version"
+    },
+    "autoload": {
+        "psr-4": {
+            "DmitryDulepov\\Realurl\\": "Classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dmitry Dulepov",
+            "email": "dmitry.dulepov@gmail.com",
+            "homepage": "http://www.dmitry-dulepov.com/"
+        }
+    ],
+    "extra": {
+        "typo3/cms": {
+            "cms-package-dir": "{$vendor-dir}/typo3/cms",
+            "web-dir": ".Build/Web"
+        }
+    }
+}
