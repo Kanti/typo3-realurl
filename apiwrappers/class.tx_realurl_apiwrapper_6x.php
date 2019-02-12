@@ -275,7 +275,7 @@ class tx_realurl_apiwrapper_6x extends tx_realurl_apiwrapper implements \TYPO3\C
 	 * @return array Merged result.
 	 */
 	public function array_merge(array $arr1, array $arr2) {
-		return GeneralUtility::array_merge($arr1, $arr2);
+		return $arr1 + $arr2;
 	}
 
 
