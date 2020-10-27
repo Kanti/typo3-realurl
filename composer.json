@@ -1,5 +1,5 @@
 {
-    "name": "dmitryd/typo3-realurl",
+    "name": "kanti/typo3-realurl",
     "type": "typo3-cms-extension",
     "description": "Speaking URLs for TYPO3",
     "homepage": "https://github.com/dmitryd/typo3-realurl",
@@ -23,7 +23,7 @@
     },
     "require": {
         "typo3/cms-core": ">=6.2.0,<9.0.0",
-        "php": ">=5.4.0,<7.4.0",
+        "php": ">=5.4.0,<8.0.0",
         "ext-mbstring": "*"
     },
     "require-dev": {
